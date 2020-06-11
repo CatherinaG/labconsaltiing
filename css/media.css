@@ -1,0 +1,393 @@
+/* Media Queries */
+
+/* Home */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1199px) {
+	.menu {
+		margin-top: 0;
+	}
+	.menu__btn {
+		margin-left: auto;
+	}
+	.ideas__btn {
+		margin-left: -30px;
+	}
+	.company__content_last {
+		margin-left: 20px;
+	}
+	.menu-opened {
+		right: -100%;
+	}
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 991px) {
+	.logo {
+		width: 228px;
+	}
+	.menu-open {
+		margin-top: 10px;
+	}
+	.confidence__text {
+		width: 100%
+	}
+	.confidence__icon_third {
+		margin-top: 30px;
+	}
+	.mission__title_news {
+		margin-top: 50px;
+	}
+	.lab__text {
+		margin-bottom: 40px;
+	}
+	.company__content_third {
+		margin-left: 0;
+	}
+	.company__content_second {
+		margin-left: 0;
+	}
+	.ideas__btn {
+		display: none;
+	}
+	.logo2 {
+		width: 206px;
+		margin-top: 50px;
+	}
+	.ideas__text_address {
+		margin-left: 16px;
+	}
+	.ideas__content {
+		margin-left: 30px;
+	}
+	.ideas__rights {
+		margin-left: 30px;
+	}
+	.company__content_last {
+		margin-left: 0;
+	}
+	.menu-opened {
+		margin-top: 20px;
+		right: 0;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 767px) {
+	.menu__btn {
+		margin-left: 20px;
+		margin-top: 0;
+	}
+	.menu-open {
+		margin-top: 0;
+	}
+	.mission__btn {
+		margin: 40px;
+	}
+	.lab__text {
+		margin-bottom: 30px;
+	}
+	.ideas__content  {
+		margin-left: 190px;
+	}
+	.ideas__rights {
+		text-align: center;
+	}
+	.menu-opened {
+		margin-top: 0;
+		right: 0;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 575px) {
+	.logo {
+		margin-bottom: 30px;
+	}
+	.consulting__title {
+		font-size: 45px;
+	}
+	.consulting__text {
+		font-size: 25px;
+	}
+	.mission__btn {
+		margin: 40px auto;
+	}
+	.company__content {
+		margin: 0 auto 30px;
+	    display: block;
+	    text-align: center;
+	}
+	.logo2 {
+		text-align: center;
+    	margin: 30px auto 0;
+    	display: block;
+	}
+	.ideas__text {
+		text-align: center;
+    	margin: 0 auto;
+    	display: block;
+	}
+	.ideas__text_first {
+		text-align: center;
+    	margin: 30px auto 0;
+    	display: block;
+	}
+	.ideas__text:nth-child(4) {
+		text-align: center;
+    	margin: 30px auto 0;
+    	display: block;
+	}
+	.ideas__content {
+		width: 170px;
+    	margin: 30px auto;
+	}
+	.ideas__letter {
+		margin-top: 0;
+	}
+	.ideas__text_second {
+		text-align: left;
+	}
+	.ideas__rights {
+		margin-left: 20px;
+	}
+	.ideas__btn {
+		display: block;
+		margin: 0 auto;
+    	margin-top: 30px;
+	}
+	.menu-opened {
+		margin-top: 20px;
+		right: 0;
+	}
+}
+
+/* About */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+    .navigation {
+    	margin-left: 0;
+    }
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.about__title {
+		text-align: center;
+	}
+	.about__content {
+		margin: 0 auto;
+    	width: 170px;
+	}
+	.navigation {
+    	margin: 30px auto;
+    	width: 550px;
+    }
+    .work__picture {
+    	margin-bottom: 30px;
+    }
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.navigation {
+		width: 100%;
+	}
+
+	.navigation__content {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		text-align: center;
+		width: 50%;
+    	margin: 0 auto;
+	}
+	.navigation__item a {
+		display: block;
+    	margin: 0 auto;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.work__title {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+	.work__picture {
+		margin: 15px auto;
+	}
+	.power__content {
+		flex-direction: column;
+	}
+	.power__icon {
+		margin-bottom: 15px;
+	}
+	.power__title {
+		line-height: 1.4em;
+	}
+	.reservation {
+		width: 100%;
+	}
+	.reservation__input {
+		width: 100%;
+	}
+	.reservation__btn {
+		width: 100%;
+	}
+	.reservation__title {
+		line-height: 1.3em;
+	}
+}
+
+/* Services */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+	.services {
+		margin-left: 0;
+	}
+	.business__content {
+		margin-left: 0;
+	}
+	.category__consultation {
+		margin-bottom: 50px;
+	}
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+	.business__content {
+		display: none;
+	}
+	.business__title {
+		margin-left: 32px;
+	}
+	.business__text {
+		margin-left: 32px;
+		max-width: 100%;
+	}
+	br {
+		display: none;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.services__content {
+		flex-direction: column;
+		margin: 0 auto;
+	    width: 50%;
+	    text-align: center;
+	}
+	.business__img {
+		display: block;
+		margin: 0 auto;
+	}
+	.business__title {
+		text-align: center;
+    	width: 100%;
+    	margin-left: 0;
+	}
+	.business__text {
+		text-align: center;
+		margin-left: 0;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.category__content {
+		flex-direction: column;
+	}
+}
+
+/* Contacts */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+
+	.contacns__map {
+		position: static;
+	}
+	.navigation_contacts {
+		margin-left: 220px;
+	}
+	.about__contacts {
+		width: 268px;
+	}
+	.contacns__mail {
+		width: 100%;
+		margin-right: 0;
+	}
+	.contacns__info {
+		width: 100%;
+	}
+}
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+
+	.contacns__address:before {
+		display: none;
+	}
+	.contacns__address {
+	  	position: static;
+	  	left: 0;
+	  	bottom: 0;
+	  	margin: 30px auto;
+      	max-width: 60%;
+	}
+	.contacns__content {
+		justify-content: space-between;
+	}
+	.contacns__call {
+		justify-content: space-between;
+	}
+	.contacns__text {
+		width: 100%;
+		margin-left: -20%;
+	}
+	.about__contacts {
+		margin: 0 auto;
+    	width: 268px;
+	}
+	.navigation_contacts {
+		margin: 30px auto;
+	}
+	.contacns__text {
+		margin-left: 0;
+	}
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+	.contacns__title {
+		width: 100%;
+	}
+	.contacns__envelope {
+		margin-bottom: 20px;
+	}
+	.contacns__address {
+		max-width: 80%;
+	}
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+	.contacns__address {
+		max-width: 90%;
+	}
+	.contacns__call {
+		flex-direction: column;
+	}
+	.navigation__content_contacts {
+		width: 60%;
+	}
+	.contacns__content {
+		flex-direction: column;
+	}
+
+}
